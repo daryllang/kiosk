@@ -1,0 +1,259 @@
+<html>
+<head>
+<script src="jquery-2.2.0.min.js"></script>
+<link rel="stylesheet" href="style.css" type="text/css" media="all"/>
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<meta http-equiv="refresh" content="900">
+</head>
+<body>
+
+
+<div id="pi_screen">
+
+	<div id="obsbox">
+		<span id="currenttime">00:00</span><br>
+		<span id="currenttemp">000&deg;</span><br>
+		<span id="currentwx">Observation</span><br>
+		<span id="currentwind">Wind Observation</span>
+	</div>
+
+	<div id="weatherbox">
+		<div id="hazard"></div>
+		<div id="weathertext"></div>
+	</div>
+
+	<ul id="hourlywx2">
+	</ul>
+
+	<ul class="lowerbox" id="col1"></ul>
+	<ul class="lowerbox" id="col2"></ul>
+	<ul class="lowerbox" id="col3"></ul>
+
+</div> <!--piscreen-->
+
+
+<div id="piscreengradient"></div>
+
+
+</body>
+
+<script>
+
+/* Fix days of week */
+
+function formatDayAMPM(date) {
+  var hours = date.getHours();
+  var ampm = hours >= 12 ? 'pm ' : 'am ';
+  hours = hours % 12;
+  hours = hours ? hours : 12; // the hour '0' should be '12'
+  daynumber = date.getDay();
+  	if (daynumber == 0) { day = "Sun" };
+  	if (daynumber == 1) { day = "Mon" };
+  	if (daynumber == 2) { day = "Tue" };
+  	if (daynumber == 3) { day = "Wed" };  	
+  	if (daynumber == 4) { day = "Thu" };
+  	if (daynumber == 5) { day = "Fri" };
+  	if (daynumber == 6) { day = "Sat" };
+  var strTime = '<span class="dayname">' + day + '</span><br><span class="celltime">' + hours + ampm + "</span>";
+  return strTime;
+}
+
+
+
+/* Main refresher function */
+
+function refresher() {
+
+	var $currenttime = new Date();
+
+
+/* Display times and error message */
+
+function timeupdates() {
+
+	var xhReq = new XMLHttpRequest();
+	xhReq.open("HEAD", "weather.json", false);
+	xhReq.send(null);
+	var $lastupdate = new Date(xhReq.getResponseHeader("Last-Modified"));
+
+	$updatedago = (Math.round(($currenttime - $lastupdate)/1000/60));
+
+	if ($updatedago > 120) {
+			document.getElementById("hazard").innerHTML = "Data is more than 2 hours old";
+	}
+
+	var $hours = $currenttime.getHours();
+    var $timeappend = " am";
+    if ($hours === 0) { $hours = 12; }
+	if ($hours >= 12) { $timeappend = " pm"; }
+	if ($hours > 12) { $hours = ($hours - 12); }
+	var $minutes = String($currenttime.getMinutes());
+
+	if ($minutes.length === 1) { 
+		$minutes = "0" + $minutes;
+		}
+
+	document.getElementById("currenttime").innerHTML = $hours + '<span id="colon">:</span>' + $minutes + $timeappend;
+
+
+	if ($currenttime.getSeconds() % 2) {
+		document.getElementById("colon").style.visibility = "hidden";
+		} else {
+		document.getElementById("colon").style.visibility = "visible";
+		}	
+	
+	}
+
+
+	/* Pull current observations + forecast file */
+	
+	$.getJSON( "weather.json", function( data ) {
+		$currenttemp = data.currentobservation.Temp + "&deg;";
+		$windchill = data.currentobservation.WindChill;
+		if ($windchill && ($windchill !== "NA")) {
+			$windchill = ", Wind chill " + $windchill + "&deg;"
+		} else {
+			$windchill = " ";
+		}
+		$windspeed = data.currentobservation.Winds;
+		$windgust = data.currentobservation.Gust;
+		$currentwx = data.currentobservation.Weather;
+		document.getElementById("currenttemp").innerHTML = $currenttemp;
+		document.getElementById("obsbox").className = ("degree" + data.currentobservation.Temp);
+		document.getElementById("currentwx").innerHTML = $currentwx;
+		document.getElementById("currentwind").innerHTML = "Wind " + $windspeed + " gust " + $windgust + $windchill;
+	
+		$textcounter = data.time.startPeriodName;
+
+		$textforecast = " ";
+
+        for (key in $textcounter) {
+			$textforecast = $textforecast + "<span id=\"weatherdate\">" + $textcounter[key] + ":</span> " + data.data.text[key] + "<br><br>";
+			if ($textforecast.length > 400) { break; }
+        	}
+		
+		$hazard = data.data.hazard;
+		if ($hazard.length > 2) {
+			$hazardstring = " ";
+				if (Array.isArray($hazard)) {
+					var i=0;
+					for (;$hazard[i];) {
+						if (i>0) {
+							$hazardstring = $hazardstring + "&nbsp; &middot; "; 
+						}
+						$hazardstring = $hazardstring + $hazard[i];
+						i++;
+					}
+					document.getElementById("hazard").innerHTML = $hazardstring;
+					document.getElementById("hazard").style.backgroundColor = "#f00";
+				};
+		} else {
+			document.getElementById("hazard").innerHTML = "";
+			document.getElementById("hazard").style.backgroundColor = "none";
+		};
+		
+		document.getElementById("weathertext").innerHTML = $textforecast;
+
+	});
+	
+	/* Timeago function */
+	
+	function timeago(oldtime) {
+		newtime = Math.round(($currenttime - oldtime)/1000/60);
+		if (newtime <= 90) {
+			return '<li class="urgent"><b>' + newtime + " minutes ago: </b>";
+			} else if (newtime <= 1500) {
+			return '<li><b>' + Math.round(newtime/60) + " hours ago: </b>";	
+			} else {
+			return '<li><b>' + Math.round(newtime/60/24) + " days ago: </b>";				
+			}
+		};
+	
+	/* Pull tweet file */
+	
+	$.getJSON( "tweets.json", function( data ) {
+		var $transittext = '<li class="coltitle">Subway alerts</li>';
+        for (key in data.transit.tweets) {
+			$timeago = timeago(new Date(data.transit.times[key]));
+			$transittext = $transittext + $timeago + data.transit.tweets[key] + "</li>";
+			document.getElementById("col1").innerHTML = $transittext;
+        	}
+        
+        var $notifytext = '<li class="coltitle">Notify NYC</li>';
+		for (key in data.notify.tweets) {
+			$timeago = timeago(new Date(data.notify.times[key]));
+			$notifytext = $notifytext + $timeago + data.notify.tweets[key] + "</li>";
+			document.getElementById("col2").innerHTML = $notifytext;
+        	}
+		});
+
+	/* Pull news file */
+	
+	$.get('news.xml', function(d){
+		var $newstext = '<li class="coltitle">ABC News</li>';
+		i = 0;
+		$(d).find('rss > channel > item > title').each(function(){
+			i++;
+			if (i >= 6) { return; }
+			console.log(i);
+			$newstext = $newstext + "<li>" + this.childNodes[0].nodeValue + "</li>";
+			document.getElementById("col3").innerHTML = $newstext;
+        	});
+        });
+	
+	/* Pull hourly forecast file */
+
+	$.get('forecast.xml', function(d){
+	
+		i = 0;
+		$hourlystring1 = "";
+		$hourlystring2 = "";
+		while (i < 16) {
+	
+			var $timecrunch;
+			var $hourlytemp;
+			var $hourlywx;
+	
+			$(d).find('start-valid-time').slice(i, (i+1)).each(function(){
+				var $time = new Date($(this).text()); 
+				$timecrunch = formatDayAMPM($time);
+				$hourlytemp = $(d).find('temperature > value').slice(i,(i+1)).text();
+				$hourlywxcheck = $(d).find('weather > weather-conditions').slice(i,(i+1)).children('value');
+				if ($hourlywxcheck.attr('weather-type')) {
+					$hourlywx = $hourlywxcheck.attr('coverage') + ' ' + $hourlywxcheck.attr('weather-type');
+				} else {
+					$hourlywx = "";
+				}
+			});
+
+                        $hourlywx = $hourlywx.replace("thunderstorms","tstorms").replace("slight chance","sl chnce").replace("definitely","defntly");
+
+			$appendstring = '<li class="tempcell degree' + $hourlytemp + '">' + $timecrunch + '<br><span class="celltemp">' + $hourlytemp + '</span><br><span class="cellwx">' + $hourlywx + "</span></li>";
+			
+		$hourlystring2 = $hourlystring2 + $appendstring;				
+
+	   	i++;
+		}
+
+		document.getElementById("hourlywx2").innerHTML = $hourlystring2;
+
+	});
+
+	timeupdates($currenttime);
+
+};
+
+
+
+
+
+window.onload = refresher();
+setInterval(refresher,1000);
+/*
+window.onload = timeupdates();
+setInterval(timeupdates,1000);
+*/
+
+</script>
+
+</html>

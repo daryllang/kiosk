@@ -1,0 +1,635 @@
+/*
+Colors:
+Blue - #499EFF
+Purple - #800CE8
+Red - #F00
+Orange - #E8830C
+Yellow - #FFEE0D
+*/
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: Lato, Arial, Helvetica;
+	color: #aaa;
+	font-size: 13px;
+}
+
+#pi_screen {
+	width: 800px;
+	height: 480px;
+	border:0;
+	background-color: #000;
+	top:0px;
+	left:0px;
+	position: absolute;
+	}
+
+#piscreengradient {
+	width: 800px;
+	height: 480px;
+	border: 0;
+	position: absolute;
+	z-index: 100;
+	border: 0;
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.5) 100%);
+        background: -moz-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba (0,0,0,0.5) 100%);
+        background: -webkit-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba (0,0,0,0.5) 100%);
+}
+	
+#obsbox {
+	text-align: center;
+	width: 250px;
+	height: 190px;
+	border:0;
+	font-weight: 900;
+	top:0px;
+	left:0px;
+	position: absolute;
+	padding-top: 0px;
+	margin: 0px;
+	z-index: 5;
+}
+
+#currenttime {
+	font-size: 12px;
+	line-height: 30px;
+}
+
+#currenttemp {
+	font-size: 100px;
+	line-height: 90px;
+}
+
+#currentwx {
+	font-size: 25px;
+	line-height: 35px;
+
+}
+
+#currentwind {
+	font-size: 12px;
+}
+
+
+#hourlywx2 {
+	text-align: center;
+	width: 800px;
+	height: 108px;
+	border:0;
+	top:190px;
+	left:0px;
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #999;
+	border-top: 1px solid #999;
+}
+
+.tempcell {
+width: 49px;
+height: 100px;
+float: left;
+padding-top: 8px;
+margin: 0px;
+overflow: hidden;
+}
+
+.dayname {
+font-size: 13px;
+line-height: 13px;
+font-weight: 900;
+}
+
+.celltime {
+font-size: 13px;
+line-height: 15px;
+}
+
+.celltemp {
+font-size: 25px;
+font-weight: 900;
+}
+
+.cellwx {
+font-size: 12px;
+line-height: 12px;
+}
+
+#weatherbox {
+	text-align: left;
+	width: 550px;
+	height: 190px;
+	border:0;
+	top:0px;
+	left:250px;
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+#weathertext {
+	font-size: 14px;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+#weatherdate {
+	font-size:17px;
+	font-weight: 900;
+}
+
+#hazard {
+	display: block;
+	color: #fff;
+	width: 100%;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 20px;
+	height: 20px;
+	font-weight: 900;
+	background-color: none;
+	padding-left: 5px;
+}
+
+.lowerbox {
+	width: 266px;
+	height: 180px;
+	position: absolute;
+	top: 300px;
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+}
+
+.lowerbox li {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 8px;
+	margin-right: 8px;
+	border-top: 1px #aaa solid;
+	background-color: #000;
+}
+
+.lowerbox .coltitle {
+	text-align: center;
+	font-size: 10px;
+	font-weight: 900;
+	border: none; #important
+}
+
+.lowerbox .urgent {
+    color: #f00;
+}
+
+#col1 {
+	left: 0px;
+  }
+
+#col2 {
+	left: 267px;
+  }
+
+#col3 {
+	left: 534px;
+  }
+
+
+
+/* Begin degree colors */
+
+.degree0 {
+    color: #FFFFFF !important;
+}
+
+.degree1 {
+    color: #fcfdff !important;
+}
+
+.degree2 {
+    color: #f9fcff !important;
+}
+
+.degree3 {
+    color: #f6faff !important;
+}
+
+.degree4 {
+    color: #f3f9ff !important;
+}
+
+.degree5 {
+    color: #f0f8ff !important;
+}
+
+.degree6 {
+    color: #edf6ff !important;
+}
+
+.degree7 {
+    color: #eaf5ff !important;
+}
+
+.degree8 {
+    color: #e7f3ff !important;
+}
+
+.degree9 {
+    color: #e4f2ff !important;
+}
+
+.degree10 {
+    color: #E0F0FF !important;
+}
+
+.degree11 {
+    color: #dceeff !important;
+}
+
+.degree12 {
+    color: #d9ecff !important;
+}
+
+.degree13 {
+    color: #d5eaff !important;
+}
+
+.degree14 {
+    color: #d2e8ff !important;
+}
+
+.degree15 {
+    color: #cee6ff !important;
+}
+
+.degree16 {
+    color: #cbe4ff !important;
+}
+
+.degree17 {
+    color: #c7e2ff !important;
+}
+
+.degree18 {
+    color: #c4e0ff !important;
+}
+
+.degree19 {
+    color: #c0deff !important;
+}
+
+.degree20 {
+    color: #BCDBFF !important;
+}
+
+.degree21 {
+    color: #b6d9ff !important;
+}
+
+.degree22 {
+    color: #b0d7ff !important;
+}
+
+.degree23 {
+    color: #aad5ff !important;
+}
+
+.degree24 {
+    color: #a4d4ff !important;
+}
+
+.degree25 {
+    color: #9ed2ff !important;
+}
+
+.degree26 {
+    color: #98d0ff !important;
+}
+
+.degree27 {
+    color: #92cfff !important;
+}
+
+.degree28 {
+    color: #8ccdff !important;
+}
+
+.degree29 {
+    color: #86cbff !important;
+}
+
+.degree30 {
+    color: #80C9FF !important;
+}
+
+.degree31 {
+    color: #79cefd !important;
+}
+
+.degree32 {
+    color: #73d4fb !important;
+}
+
+.degree33 {
+    color: #6cd9fa !important;
+}
+
+.degree34 {
+    color: #66dff8 !important;
+}
+
+.degree35 {
+    color: #60e4f7 !important;
+}
+
+.degree36 {
+    color: #59eaf5 !important;
+}
+
+.degree37 {
+    color: #53eff3 !important;
+}
+
+.degree38 {
+    color: #4cf5f2 !important;
+}
+
+.degree39 {
+    color: #46faf0 !important;
+}
+
+.degree40 {
+    color: #3FFFEE !important;
+}
+
+.degree41 {
+    color: #46ffe9 !important;
+}
+
+.degree42 {
+    color: #4effe5 !important;
+}
+
+.degree43 {
+    color: #56ffe0 !important;
+}
+
+.degree44 {
+    color: #5effdc !important;
+}
+
+.degree45 {
+    color: #66ffd7 !important;
+}
+
+.degree46 {
+    color: #6dffd3 !important;
+}
+
+.degree47 {
+    color: #75ffce !important;
+}
+
+.degree48 {
+    color: #7dffca !important;
+}
+
+.degree49 {
+    color: #85ffc5 !important;
+}
+
+.degree50 {
+    color: #8CFFC0 !important;
+}
+
+.degree51 {
+    color: #91ffbb !important;
+}
+
+.degree52 {
+    color: #97ffb7 !important;
+}
+
+.degree53 {
+    color: #9cffb2 !important;
+}
+
+.degree54 {
+    color: #a2ffae !important;
+}
+
+.degree55 {
+    color: #a8ffa9 !important;
+}
+
+.degree56 {
+    color: #adffa5 !important;
+}
+
+.degree57 {
+    color: #b3ffa0 !important;
+}
+
+.degree58 {
+    color: #b8ff9c !important;
+}
+
+.degree59 {
+    color: #beff97 !important;
+}
+
+.degree60 {
+    color: #C3FF92 !important;
+}
+
+.degree61 {
+    color: #c9fd90 !important;
+}
+
+.degree62 {
+    color: #cffc8f !important;
+}
+
+.degree63 {
+    color: #d5fa8e !important;
+}
+
+.degree64 {
+    color: #dbf98d !important;
+}
+
+.degree65 {
+    color: #e1f78c !important;
+}
+
+.degree66 {
+    color: #e7f68a !important;
+}
+
+.degree67 {
+    color: #edf489 !important;
+}
+
+.degree68 {
+    color: #f3f388 !important;
+}
+
+.degree69 {
+    color: #f9f187 !important;
+}
+
+.degree70 {
+    color: #FFEF85 !important;
+}
+
+.degree71 {
+    color: #ffea81 !important;
+}
+
+.degree72 {
+    color: #ffe67e !important;
+}
+
+.degree73 {
+    color: #ffe27b !important;
+}
+
+.degree74 {
+    color: #ffde78 !important;
+}
+
+.degree75 {
+    color: #ffda75 !important;
+}
+
+.degree76 {
+    color: #ffd572 !important;
+}
+
+.degree77 {
+    color: #ffd16f !important;
+}
+
+.degree78 {
+    color: #ffcd6c !important;
+}
+
+.degree79 {
+    color: #ffc969 !important;
+}
+
+.degree80 {
+    color: #FFC465 !important;
+}
+
+.degree81 {
+    color: #ffbf63 !important;
+}
+
+.degree82 {
+    color: #ffba62 !important;
+}
+
+.degree83 {
+    color: #ffb660 !important;
+}
+
+.degree84 {
+    color: #ffb15f !important;
+}
+
+.degree85 {
+    color: #ffad5d !important;
+}
+
+.degree86 {
+    color: #ffa85c !important;
+}
+
+.degree87 {
+    color: #ffa35a !important;
+}
+
+.degree88 {
+    color: #ff9f59 !important;
+}
+
+.degree89 {
+    color: #ff9a57 !important;
+}
+
+.degree90 {
+    color: #FF9555 !important;
+}
+
+.degree91 {
+    color: #ff8c51 !important;
+}
+
+.degree92 {
+    color: #ff844e !important;
+}
+
+.degree93 {
+    color: #ff7c4b !important;
+}
+
+.degree94 {
+    color: #ff7448 !important;
+}
+
+.degree95 {
+    color: #ff6c45 !important;
+}
+
+.degree96 {
+    color: #ff6341 !important;
+}
+
+.degree97 {
+    color: #ff5b3e !important;
+}
+
+.degree98 {
+    color: #ff533b !important;
+}
+
+.degree99 {
+    color: #ff4b38 !important;
+}
+
+.degree100 {
+    color: #FF4234 !important;
+}
+
+.degree101 {
+    color: #fc3b36 !important;
+}
+
+.degree102 {
+    color: #fa3539 !important;
+}
+
+.degree103 {
+    color: #f82e3c !important;
+}
+
+.degree104 {
+    color: #f6283e !important;
+}
+
+.degree105 {
+    color: #f42141 !important;
+}
+
+.degree106 {
+    color: #f11b44 !important;
+}
+
+.degree107 {
+    color: #ef1446 !important;
+}
+
+
+/* End degree colors */

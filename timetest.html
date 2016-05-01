@@ -1,0 +1,24 @@
+<html>
+<body>
+<h3>Current: <span id="currenttime"></span></h3>
+<h3>Last modified: <span id="lastupdate"></span></h3>
+<script>
+function timeupdates() {
+	var $currenttime = new Date();
+	
+	var xhReq = new XMLHttpRequest();
+	xhReq.open("HEAD", "index.html", false);
+	xhReq.send(null);
+	var $lastupdate = xhReq.getResponseHeader("Last-Modified");
+
+	document.getElementById("currenttime").innerHTML = $currenttime;
+	document.getElementById("lastupdate").innerHTML = $lastupdate;	
+	}
+	
+window.onload = timeupdates();
+setInterval(timeupdates,1000);
+
+
+</script>
+</body>
+</html>
