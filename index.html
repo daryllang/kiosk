@@ -226,7 +226,7 @@ function timeupdates() {
 				}
 			});
 
-                        $hourlywx = $hourlywx.replace("thunderstorms","tstorms").replace("slight chance","sl chnce").replace("definitely","defntly");
+                        $hourlywx = $hourlywx.replace("thunderstorms","tstorms").replace("rain showers","showers").replace("snow showers","snow shwr").replace("slight chance","sl chnce").replace("definitely","defntly");
 
 			$appendstring = '<li class="tempcell degree' + $hourlytemp + '">' + $timecrunch + '<br><span class="celltemp">' + $hourlytemp + '</span><br><span class="cellwx">' + $hourlywx + "</span></li>";
 			
