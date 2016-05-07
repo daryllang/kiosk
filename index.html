@@ -66,6 +66,11 @@ function refresher() {
 
 	var $currenttime = new Date();
 
+	/* Get screen size */
+	
+	var screenwidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+	var screenheight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
 
 /* Display times and error message */
 
@@ -195,7 +200,6 @@ function timeupdates() {
 		$(d).find('rss > channel > item > title').each(function(){
 			i++;
 			if (i >= 6) { return; }
-			console.log(i);
 			$newstext = $newstext + "<li>" + this.childNodes[0].nodeValue + "</li>";
 			document.getElementById("col3").innerHTML = $newstext;
         	});

@@ -12,12 +12,12 @@ body {
 	margin: 0px;
 	font-family: Lato, Arial, Helvetica;
 	color: #aaa;
-	font-size: 13px;
+	font-size: 1vw;
 }
 
 #pi_screen {
-	width: 800px;
-	height: 480px;
+	width: 100em;
+	height: 60em;
 	border:0;
 	background-color: #000;
 	top:0px;
@@ -26,8 +26,8 @@ body {
 	}
 
 #piscreengradient {
-	width: 800px;
-	height: 480px;
+	width: 100em;
+	height: 60em;
 	border: 0;
 	position: absolute;
 	z-index: 100;
@@ -39,8 +39,8 @@ body {
 	
 #obsbox {
 	text-align: center;
-	width: 250px;
-	height: 190px;
+	width: 31.25em;
+	height: 23.75em;
 	border:0;
 	font-weight: 900;
 	top:0px;
@@ -52,32 +52,32 @@ body {
 }
 
 #currenttime {
-	font-size: 12px;
-	line-height: 30px;
+	font-size: 1.5em;
+	line-height: 3.75em;
 }
 
 #currenttemp {
-	font-size: 100px;
-	line-height: 90px;
+	font-size: 12.5em;
+	line-height: 0.9em;
 }
 
 #currentwx {
-	font-size: 25px;
-	line-height: 35px;
+	font-size: 3.125em;
+	line-height: 1.4em;
 
 }
 
 #currentwind {
-	font-size: 12px;
+	font-size: 1.5em;
 }
 
 
 #hourlywx2 {
 	text-align: center;
-	width: 800px;
-	height: 108px;
+	width: 100em;
+	height: 13.5em;
 	border:0;
-	top:190px;
+	top: 23.75em;
 	left:0px;
 	position: absolute;
 	padding: 0px;
@@ -87,42 +87,42 @@ body {
 }
 
 .tempcell {
-width: 49px;
-height: 100px;
+width: 6.125em;
+height: 12.5em;
 float: left;
-padding-top: 8px;
+padding-top: 1em;
 margin: 0px;
 overflow: hidden;
 }
 
 .dayname {
-font-size: 13px;
-line-height: 13px;
+font-size: 1.625em;
+line-height: 1.625em;
 font-weight: 900;
 }
 
 .celltime {
-font-size: 13px;
-line-height: 15px;
+font-size: 1.625em;
+line-height: 1em;
 }
 
 .celltemp {
-font-size: 25px;
+font-size: 3.125em;
 font-weight: 900;
 }
 
 .cellwx {
-font-size: 12px;
-line-height: 12px;
+font-size: 1.5em;
+line-height: 1em;
 }
 
 #weatherbox {
 	text-align: left;
-	width: 550px;
-	height: 190px;
+	width: 68.75em;
+	height: 23.75em;
 	border:0;
 	top:0px;
-	left:250px;
+	left: 31.25em;
 	position: absolute;
 	padding: 0px;
 	margin: 0px;
@@ -130,13 +130,13 @@ line-height: 12px;
 }
 
 #weathertext {
-	font-size: 14px;
-	padding-top: 5px;
-	padding-right: 5px;
+	font-size: 1.6em;
+	padding-top: 0.625em;
+	padding-right: 0.625em;
 }
 
 #weatherdate {
-	font-size:17px;
+	font-size:1.1em;
 	font-weight: 900;
 }
 
@@ -145,36 +145,38 @@ line-height: 12px;
 	color: #fff;
 	width: 100%;
 	overflow: hidden;
-	font-size: 14px;
-	line-height: 20px;
-	height: 20px;
+	font-size: 1.75em;
+	line-height: 2.5em;
+	height: 2.5em;
 	font-weight: 900;
 	background-color: none;
-	padding-left: 5px;
+	padding-left: 0.625em;
 }
 
 .lowerbox {
-	width: 266px;
-	height: 180px;
+	width: 33.25em;
+	height: 22.5em;
 	position: absolute;
-	top: 300px;
+	top: 37.5em;
 	overflow: hidden;
 	padding: 0px;
 	margin: 0px;
 }
 
 .lowerbox li {
+	font-size: 1.75em;
 	padding-left: 0px;
 	padding-right: 0px;
-	margin-left: 8px;
-	margin-right: 8px;
+	margin-left: 0.625em;
+	margin-right: 0.625em;
 	border-top: 1px #aaa solid;
 	background-color: #000;
+	list-style-type: none;
 }
 
 .lowerbox .coltitle {
 	text-align: center;
-	font-size: 10px;
+	font-size: 1.25em;
 	font-weight: 900;
 	border: none; #important
 }
@@ -188,11 +190,11 @@ line-height: 12px;
   }
 
 #col2 {
-	left: 267px;
+	left: 33.33em;
   }
 
 #col3 {
-	left: 534px;
+	left: 66.66em;
   }
 
 
