@@ -5,7 +5,7 @@
       <title>NOAA's National Weather Service Forecast Data</title>
       <field>meteorological</field>
       <category>forecast</category>
-      <creation-date refresh-frequency="PT1H">2016-05-07T19:45:08Z</creation-date>
+      <creation-date refresh-frequency="PT1H">2016-05-07T20:15:02Z</creation-date>
     </product>
     <source>
       <more-information>http://www.nws.noaa.gov/forecasts/xml/</more-information>
