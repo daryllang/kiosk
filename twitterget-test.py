@@ -12,7 +12,10 @@ tweetsindex = '{ '
 # transitsearchstring = "%23ServiceAlert%20from%3ANYCTSubway"
 # results = api.GetSearch(term=transitsearchstring, result_type='recent', count=4)
 
-results = api.GetUserTimeline(screen_name="NYCTSubway", count=8, include_rts=False, exclude_replies=True)
+# results = api.GetUserTimeline(screen_name="NYCTSubway", count=4, include_rts=False, exclude_replies=True)
+
+results = api.GetUserTimeline(screen_name="daryllang", count=4, include_rts=False, exclude_replies=True)
+
 
 transittweetgroup = '"transit" : { "tweets": ['
 transittimesgroup = '"times": ['
@@ -29,7 +32,7 @@ for tweet in results:
      scrubbedtweet = scrubbedtweet.replace("#ServiceAlert:"," ")
      scrubbedtweet = scrubbedtweet.encode('ascii', 'ignore')
      transittweetgroup = transittweetgroup + '"' + scrubbedtweet + '"'
-     transittimesgroup = transittimesgroup + '"' + tweet.created_at + '"'    
+     transittimesgroup = transittimesgroup + '"' + tweet._created_at + '"'    
 
 transittweetgroup = transittweetgroup + '],'
 transittimesgroup = transittimesgroup + ']'
@@ -40,7 +43,7 @@ tweetsindex = tweetsindex + transittweetgroup + transittimesgroup + '}, '
 #notifysearchstring = '-%23MissingChildAlert%20-%23SilverAlert%20from%3ANotifyNYC'
 #results = api.GetSearch(term=notifysearchstring, result_type='recent', count=4)
 
-results = api.GetUserTimeline(screen_name="NotifyNYC", count=8, include_rts=False, exclude_replies=True)
+results = api.GetUserTimeline(screen_name="NotifyNYC", count=4, include_rts=False, exclude_replies=True)
 
 notifytweetgroup = '"notify" : { "tweets": ['
 notifytimesgroup = '"times": ['
@@ -55,7 +58,7 @@ for tweet in results:
      scrubbedtweet = tweet.text.encode('ascii', 'ignore')
      scrubbedtweet = scrubbedtweet.replace('"','\\"').replace('\n', ' ').replace('\r',' ')
      notifytweetgroup = notifytweetgroup + '"' + scrubbedtweet + '"'
-     notifytimesgroup = notifytimesgroup + '"' + tweet.created_at + '"'
+     notifytimesgroup = notifytimesgroup + '"' + tweet._created_at + '"'
 
 notifytweetgroup = notifytweetgroup + '],'
 notifytimesgroup = notifytimesgroup + ']'

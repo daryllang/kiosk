@@ -1,582 +1,138 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:abcnews="http://abcnews.com/content/"> 
-<channel> 
-<title>ABC News: Top Stories</title>
-<link>http://abcnews.go.com/</link>
-<description></description>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.reuters.com/~d/styles/itemcontent.css"?><rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel>
+<title>Reuters: Top News</title>
+<link>http://www.reuters.com</link>
+<description>Reuters.com is your source for breaking news, business, financial and investing news, including personal finance and stocks.  Reuters is the leading global provider of news, financial information and technology solutions to the world's media, financial institutions, businesses and individuals.</description>
 <image>
-  <title>ABC News: Top Stories</title>
-  <url>http://a.abcnews.com/images/site/abcnews_google_rss_logo.png</url>
-  <link>http://abcnews.go.com/</link>
+	<title>Reuters News</title>
+	<width>120</width>
+	<height>35</height>
+	<link>http://www.reuters.com</link>
+	<url>http://www.reuters.com/resources_v2/images/reuters125.png</url>
 </image>
+<language>en-us</language>
+<lastBuildDate>Sun, 17 Jul 2016 15:55:40 -0400</lastBuildDate>
+<copyright>All rights reserved. Users may download and print extracts of content from this website for their own personal and non-commercial use only. Republication or redistribution of Reuters content, including by framing or similar means, is expressly prohibited without the prior written consent of Reuters. Reuters and the Reuters sphere logo are registered trademarks or trademarks of the Reuters group of companies around the world. © Reuters 2016</copyright>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.reuters.com/reuters/topNews" /><feedburner:info uri="reuters/topnews" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:feedFlare href="https://add.my.yahoo.com/rss?url=http%3A%2F%2Ffeeds.reuters.com%2Freuters%2FtopNews" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare><feedburner:feedFlare href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Ffeeds.reuters.com%2Freuters%2FtopNews" src="http://www.newsgator.com/images/ngsub1.gif">Subscribe with NewsGator</feedburner:feedFlare><feedburner:feedFlare href="http://feeds.my.aol.com/add.jsp?url=http%3A%2F%2Ffeeds.reuters.com%2Freuters%2FtopNews" src="http://o.aolcdn.com/favorites.my.aol.com/webmaster/ffclient/webroot/locale/en-US/images/myAOLButtonSmall.gif">Subscribe with My AOL</feedburner:feedFlare><feedburner:feedFlare href="http://www.bloglines.com/sub/http://feeds.reuters.com/reuters/topNews" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare><feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.reuters.com%2Freuters%2FtopNews" src="//www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare><feedburner:feedFlare href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.reuters.com%2Freuters%2FtopNews" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare><feedburner:feedFlare href="http://www.pageflakes.com/subscribe.aspx?url=http%3A%2F%2Ffeeds.reuters.com%2Freuters%2FtopNews" src="http://www.pageflakes.com/ImageFile.ashx?instanceId=Static_4&amp;fileName=ATP_blu_91x17.gif">Subscribe with Pageflakes</feedburner:feedFlare><item>
+		<title>Three police officers shot dead in Baton Rouge, gunman killed</title>
 
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/International/RT_canada_wildfires_1_jt_160507_4x3t_384.jpg" width="384" height="288" credit="Chris Wattie/Reuters" /> <media:thumbnail url="http://a.abcnews.com/images/International/RT_canada_wildfires_1_jt_160507_4x3t_144.jpg" width="144" height="108" credit="Chris Wattie/Reuters" /> <media:thumbnail url="http://a.abcnews.com/images/International/RT_canada_wildfires_1_jt_160507_4x3t_384.jpg" width="384" height="288" credit="Chris Wattie/Reuters" /> <media:thumbnail url="http://a.abcnews.com/images/International/RT_canada_wildfires_1_jt_160507_16x9t_240.jpg" width="240" height="135" credit="Chris Wattie/Reuters" /> <media:thumbnail url="http://a.abcnews.com/images/International/RT_canada_wildfires_1_jt_160507_4x3_608.jpg" width="608" height="456" credit="Chris Wattie/Reuters" /> <media:thumbnail url="http://a.abcnews.com/images/International/RT_canada_wildfires_1_jt_160507_16x9_992.jpg" width="992" height="558" credit="Chris Wattie/Reuters"  /> 
-					
-					<media:keywords>1</media:keywords>
 
-					<title><![CDATA[Evacuee Describes Wildfires as 'Apocalyptic Horror']]></title>
-					<link><![CDATA[http://abcnews.go.com/International/canada-wildfires-apocalyptic-horror-evacuee/story?id=38950239]]></link>
-					<guid><![CDATA[http://abcnews.go.com/International/canada-wildfires-apocalyptic-horror-evacuee/story?id=38950239]]></guid>
-					<pubDate>Sat, 07 May 2016 11:52:58 -0400</pubDate> 
-					<description><![CDATA[More than 80,000 people have evacuated.]]></description> 
-					
-					<category>International</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/US/ABC_sara_mujica_jt_160507_4x3t_384.jpg" width="384" height="288" credit="ABC News" /> <media:thumbnail url="http://a.abcnews.com/images/US/ABC_sara_mujica_jt_160507_4x3t_144.jpg" width="144" height="108" credit="ABC News" /> <media:thumbnail url="http://a.abcnews.com/images/US/ABC_sara_mujica_jt_160507_4x3t_384.jpg" width="384" height="288" credit="ABC News" /> <media:thumbnail url="http://a.abcnews.com/images/US/ABC_sara_mujica_jt_160507_16x9t_240.jpg" width="240" height="135" credit="ABC News" /> <media:thumbnail url="http://a.abcnews.com/images/US/ABC_sara_mujica_jt_160507_4x3_608.jpg" width="608" height="456" credit="ABC News" /> <media:thumbnail url="http://a.abcnews.com/images/US/ABC_sara_mujica_jt_160507_16x9_992.jpg" width="992" height="558" credit="ABC News"  /> 
-					
-					<media:keywords>2</media:keywords>
+		<description>BATON ROUGE, La. (Reuters) - Three police officers were shot to death and three others wounded in Baton Rouge on Sunday, less than two weeks after a black man was killed by police in the Louisiana city, sparking nationwide protests.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=DpWTnvHdBOk:eibhP1P7ZpY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=DpWTnvHdBOk:eibhP1P7ZpY:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=DpWTnvHdBOk:eibhP1P7ZpY:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=DpWTnvHdBOk:eibhP1P7ZpY:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=DpWTnvHdBOk:eibhP1P7ZpY:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/reuters/topNews/~4/DpWTnvHdBOk" height="1" width="1" alt=""/&gt;</description>
+		<link>http://feeds.reuters.com/~r/reuters/topNews/~3/DpWTnvHdBOk/us-usa-police-idUSKCN0ZX0MX</link>
+        <guid isPermaLink="false">http://www.reuters.com/article/us-usa-police-idUSKCN0ZX0MX?feedType=RSS&amp;feedName=topNews</guid>
+        <category>topNews</category>
+		<pubDate>Sun, 17 Jul 2016 15:37:16 -0400</pubDate>
+		<feedburner:origLink>http://www.reuters.com/article/us-usa-police-idUSKCN0ZX0MX?feedType=RSS&amp;feedName=topNews</feedburner:origLink></item>
+<item>
+		<title>Turkey widens crackdown on military, judiciary after failed coup</title>
 
-					<title><![CDATA[Pregnant Teen With Zika Opens Up About 'Heartbreaking' News]]></title>
-					<link><![CDATA[http://abcnews.go.com/Health/pregnant-connecticut-teen-zika-opens-heartbreaking-news/story?id=38951494]]></link>
-					<guid><![CDATA[http://abcnews.go.com/Health/pregnant-connecticut-teen-zika-opens-heartbreaking-news/story?id=38951494]]></guid>
-					<pubDate>Sat, 07 May 2016 14:20:50 -0400</pubDate> 
-					<description><![CDATA[Sara Mujica believes she was infected while visiting her fiance in Honduras.]]></description> 
-					
-					<category>Health</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_barack_obama_jt_160507_4x3t_384.jpg" width="384" height="288" credit="SAUL LOEB/AFP/Getty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_barack_obama_jt_160507_4x3t_144.jpg" width="144" height="108" credit="SAUL LOEB/AFP/Getty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_barack_obama_jt_160507_4x3t_384.jpg" width="384" height="288" credit="SAUL LOEB/AFP/Getty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_barack_obama_jt_160507_16x9t_240.jpg" width="240" height="135" credit="SAUL LOEB/AFP/Getty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_barack_obama_jt_160507_4x3_608.jpg" width="608" height="456" credit="SAUL LOEB/AFP/Getty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_barack_obama_jt_160507_16x9_992.jpg" width="992" height="558" credit="SAUL LOEB/AFP/Getty Images"  /> 
-					
-                           <media:content />
 
-                    
-					<media:keywords>3</media:keywords>
+		<description>ISTANBUL/ANKARA (Reuters) - Turkey widened a crackdown on suspected supporters of a failed military coup on Sunday, taking the number of people rounded up in the armed forces and judiciary to 6,000, and the government said it was in full control of the country and economy.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=a24XA-MQU24:hEnP97aKuPM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=a24XA-MQU24:hEnP97aKuPM:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=a24XA-MQU24:hEnP97aKuPM:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=a24XA-MQU24:hEnP97aKuPM:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=a24XA-MQU24:hEnP97aKuPM:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/reuters/topNews/~4/a24XA-MQU24" height="1" width="1" alt=""/&gt;</description>
+		<link>http://feeds.reuters.com/~r/reuters/topNews/~3/a24XA-MQU24/us-turkey-security-idUSKCN0ZX07S</link>
+        <guid isPermaLink="false">http://www.reuters.com/article/us-turkey-security-idUSKCN0ZX07S?feedType=RSS&amp;feedName=topNews</guid>
+        <category>topNews</category>
+		<pubDate>Sun, 17 Jul 2016 15:33:55 -0400</pubDate>
+		<feedburner:origLink>http://www.reuters.com/article/us-turkey-security-idUSKCN0ZX07S?feedType=RSS&amp;feedName=topNews</feedburner:origLink></item>
+<item>
+		<title>Exclusive: U.S. curtails federal election observers</title>
 
-					<title><![CDATA[Obama Gives Black College Graduates a Lecture on 'Change']]></title>
-					<link><![CDATA[http://abcnews.go.com/Politics/president-obama-howard-university-graduates-lecture-change/story?id=38950738]]></link>
-					<guid><![CDATA[http://abcnews.go.com/Politics/president-obama-howard-university-graduates-lecture-change/story?id=38950738]]></guid>
-					<pubDate>Sat, 07 May 2016 13:24:27 -0400</pubDate> 
-					<description><![CDATA[President Obama delivered his first of three commencement speeches this year.]]></description> 
-					
-					<category>Politics</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/US/WireAP_86401089757047ad9461bafb8e4a9069_4x3t_384.jpg" width="384" height="288" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/US/WireAP_86401089757047ad9461bafb8e4a9069_4x3t_144.jpg" width="144" height="108" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/US/WireAP_86401089757047ad9461bafb8e4a9069_4x3t_384.jpg" width="384" height="288" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/US/WireAP_86401089757047ad9461bafb8e4a9069_16x9t_240.jpg" width="240" height="135" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/US/WireAP_86401089757047ad9461bafb8e4a9069_4x3_608.jpg" width="608" height="456" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/US/WireAP_86401089757047ad9461bafb8e4a9069_16x9_992.jpg" width="992" height="558" credit="The Associated Press"  /> 
-					
-					<media:keywords>4</media:keywords>
 
-					<title><![CDATA[Powerball's Pull Puts Weekend Jackpot at $415 Million]]></title>
-					<link><![CDATA[http://abcnews.go.com/US/wireStory/powerballs-pull-puts-weekend-jackpot-415-million-38929529]]></link>
-					<guid><![CDATA[http://abcnews.go.com/US/wireStory/powerballs-pull-puts-weekend-jackpot-415-million-38929529]]></guid>
-					<pubDate>Sat, 07 May 2016 03:25:16 -0400</pubDate> 
-					<description><![CDATA[The Powerball jackpot has climbed to $415 million, making it the largest since a record-setting prize in January]]></description> 
-					
-					<category>US</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_trump_warren_mm_160321_4x3t_384.jpg" width="384" height="288" credit="Bloomberg via Getty Images " /> <media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_trump_warren_mm_160321_4x3t_144.jpg" width="144" height="108" credit="Bloomberg via Getty Images " /> <media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_trump_warren_mm_160321_4x3t_384.jpg" width="384" height="288" credit="Bloomberg via Getty Images " /> <media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_trump_warren_mm_160321_16x9t_240.jpg" width="240" height="135" credit="Bloomberg via Getty Images " /> <media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_trump_warren_mm_160321_4x3_608.jpg" width="608" height="456" credit="Bloomberg via Getty Images " /> <media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_trump_warren_mm_160321_16x9_992.jpg" width="992" height="558" credit="Bloomberg via Getty Images "  /> 
-					
-                           <media:content />
+		<description>WASHINGTON (Reuters) - Federal election observers can only be sent to five states in this year’s U.S. presidential election, among the smallest deployments since the Voting Rights Act was passed in 1965 to end racial discrimination at the ballot box.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=7G_8G_nHxPs:bFdZlkv8Hoo:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=7G_8G_nHxPs:bFdZlkv8Hoo:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=7G_8G_nHxPs:bFdZlkv8Hoo:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=7G_8G_nHxPs:bFdZlkv8Hoo:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=7G_8G_nHxPs:bFdZlkv8Hoo:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/reuters/topNews/~4/7G_8G_nHxPs" height="1" width="1" alt=""/&gt;</description>
+		<link>http://feeds.reuters.com/~r/reuters/topNews/~3/7G_8G_nHxPs/us-usa-election-voting-observers-exclusi-idUSKCN0ZX0QR</link>
+        <guid isPermaLink="false">http://www.reuters.com/article/us-usa-election-voting-observers-exclusi-idUSKCN0ZX0QR?feedType=RSS&amp;feedName=topNews</guid>
+        <category>topNews</category>
+		<pubDate>Sun, 17 Jul 2016 13:22:13 -0400</pubDate>
+		<feedburner:origLink>http://www.reuters.com/article/us-usa-election-voting-observers-exclusi-idUSKCN0ZX0QR?feedType=RSS&amp;feedName=topNews</feedburner:origLink></item>
+<item>
+		<title>Police union: Open carry of guns should be suspended at Republican convention in Cleveland</title>
 
-                    
-					<media:keywords>5</media:keywords>
 
-					<title><![CDATA[Trump Slams Elizabeth Warren: She's Clinton's 'Goofy Friend']]></title>
-					<link><![CDATA[http://abcnews.go.com/Politics/donald-trump-slams-sen-elizabeth-warren-shes-hillary/story?id=38948453]]></link>
-					<guid><![CDATA[http://abcnews.go.com/Politics/donald-trump-slams-sen-elizabeth-warren-shes-hillary/story?id=38948453]]></guid>
-					<pubDate>Sat, 07 May 2016 03:19:33 -0400</pubDate> 
-					<description><![CDATA[At an Oregon rally, the GOP front-runner calls the senator a "goofus."]]></description> 
-					
-					<category>Politics</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/US/WireAP_3b2b84f43bf049d991a3348d6061bcb9_4x3t_384.jpg" width="384" height="288" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/US/WireAP_3b2b84f43bf049d991a3348d6061bcb9_4x3t_144.jpg" width="144" height="108" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/US/WireAP_3b2b84f43bf049d991a3348d6061bcb9_4x3t_384.jpg" width="384" height="288" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/US/WireAP_3b2b84f43bf049d991a3348d6061bcb9_16x9t_240.jpg" width="240" height="135" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/US/WireAP_3b2b84f43bf049d991a3348d6061bcb9_4x3_608.jpg" width="608" height="456" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/US/WireAP_3b2b84f43bf049d991a3348d6061bcb9_16x9_608.jpg" width="608" height="342" credit="The Associated Press"  /> 
-					
-					<media:keywords>6</media:keywords>
+		<description>CLEVELAND (Reuters) - The head of the Cleveland police union on Sunday urged Ohio's governor to declare a state of emergency and to suspend laws allowing the open carrying of firearms during the Republican National Convention, after the shooting of six police officers in Louisiana.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=nOuzjXpQ658:KAyOw9VmoB8:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=nOuzjXpQ658:KAyOw9VmoB8:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=nOuzjXpQ658:KAyOw9VmoB8:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=nOuzjXpQ658:KAyOw9VmoB8:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=nOuzjXpQ658:KAyOw9VmoB8:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/reuters/topNews/~4/nOuzjXpQ658" height="1" width="1" alt=""/&gt;</description>
+		<link>http://feeds.reuters.com/~r/reuters/topNews/~3/nOuzjXpQ658/us-usa-election-firearms-idUSKCN0ZX0TI</link>
+        <guid isPermaLink="false">http://www.reuters.com/article/us-usa-election-firearms-idUSKCN0ZX0TI?feedType=RSS&amp;feedName=topNews</guid>
+        <category>topNews</category>
+		<pubDate>Sun, 17 Jul 2016 15:54:16 -0400</pubDate>
+		<feedburner:origLink>http://www.reuters.com/article/us-usa-election-firearms-idUSKCN0ZX0TI?feedType=RSS&amp;feedName=topNews</feedburner:origLink></item>
+<item>
+		<title>Turkish cleric Gulen says Erdogan behind coup, willing to be extradited</title>
 
-					<title><![CDATA[Cops: Maine Fire Chief Set Blaze Fought by 100 Firefighters]]></title>
-					<link><![CDATA[http://abcnews.go.com/US/wireStory/cops-maine-fire-chief-set-blaze-fought-100-38951490]]></link>
-					<guid><![CDATA[http://abcnews.go.com/US/wireStory/cops-maine-fire-chief-set-blaze-fought-100-38951490]]></guid>
-					<pubDate>Sat, 07 May 2016 15:34:17 -0400</pubDate> 
-					<description><![CDATA[Authorities say a Maine fire chief intentionally set a grass and marsh blaze that was fought by more than 100 firefighters and led to evacuations]]></description> 
-					
-					<category>US</category> 
-					
-					</item>
-	
-					<item>
-					
-					 <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mn.jpg" width="320" height="240" /> <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mc.jpg" width="100" height="75" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mv.jpg" width="264" height="198" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wl.jpg" width="200" height="112" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_main.jpg" width="413" height="310" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wmain.jpg" width="300" height="168" /> 
-					
-					<media:keywords>7</media:keywords>
 
-					<title><![CDATA[Egypt Court Recommends Death for 2 Al-Jazeera Employees]]></title>
-					<link><![CDATA[http://abcnews.go.com/International/wireStory/egypt-court-recommends-death-al-jazeera-employees-38950198]]></link>
-					<guid><![CDATA[http://abcnews.go.com/International/wireStory/egypt-court-recommends-death-al-jazeera-employees-38950198]]></guid>
-					<pubDate>Sat, 07 May 2016 14:09:18 -0400</pubDate> 
-					<description><![CDATA[An Egyptian court has recommended the death sentence against six people, including two Al-Jazeera employees, for allegedly passing national security documents to Qatar and the Doha-based TV network during the rule of Islamist president Mohammed Morsi]]></description> 
-					
-					<category>International</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/Politics/AP_hillary_clinton_jt_160507_4x3t_384.jpg" width="384" height="288" credit="Jef Chiu/AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/AP_hillary_clinton_jt_160507_4x3t_144.jpg" width="144" height="108" credit="Jef Chiu/AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/AP_hillary_clinton_jt_160507_4x3t_384.jpg" width="384" height="288" credit="Jef Chiu/AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/AP_hillary_clinton_jt_160507_16x9t_240.jpg" width="240" height="135" credit="Jef Chiu/AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/AP_hillary_clinton_jt_160507_4x3_608.jpg" width="608" height="456" credit="Jef Chiu/AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/AP_hillary_clinton_jt_160507_16x9_992.jpg" width="992" height="558" credit="Jef Chiu/AP Photo"  /> 
-					
-                           <media:content />
+		<description>SAYLORSBURG, PA (Reuters) - U.S.-based cleric Fethullah Gulen, whose followers Turkey blames for a failed coup, said on Sunday that he would obey any extradition ruling from the United States but said that President Tayyip Erdogan had staged the putsch.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=rsKAtsjmYys:9pomq9F1OvE:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=rsKAtsjmYys:9pomq9F1OvE:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=rsKAtsjmYys:9pomq9F1OvE:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=rsKAtsjmYys:9pomq9F1OvE:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=rsKAtsjmYys:9pomq9F1OvE:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/reuters/topNews/~4/rsKAtsjmYys" height="1" width="1" alt=""/&gt;</description>
+		<link>http://feeds.reuters.com/~r/reuters/topNews/~3/rsKAtsjmYys/us-turkey-security-usa-gulen-idUSKCN0ZX0T8</link>
+        <guid isPermaLink="false">http://www.reuters.com/article/us-turkey-security-usa-gulen-idUSKCN0ZX0T8?feedType=RSS&amp;feedName=topNews</guid>
+        <category>topNews</category>
+		<pubDate>Sun, 17 Jul 2016 14:59:45 -0400</pubDate>
+		<feedburner:origLink>http://www.reuters.com/article/us-turkey-security-usa-gulen-idUSKCN0ZX0T8?feedType=RSS&amp;feedName=topNews</feedburner:origLink></item>
+<item>
+		<title>Wounded fight for life in Nice as killer's brother tells of pre-attack call</title>
 
-                    
-					<media:keywords>8</media:keywords>
 
-					<title><![CDATA[Clinton Declared Winner of Guam Democratic Caucuses]]></title>
-					<link><![CDATA[http://abcnews.go.com/Politics/hillary-clinton-declared-winner-guam-democratic-caucuses/story?id=38951463]]></link>
-					<guid><![CDATA[http://abcnews.go.com/Politics/hillary-clinton-declared-winner-guam-democratic-caucuses/story?id=38951463]]></guid>
-					<pubDate>Sat, 07 May 2016 12:18:29 -0400</pubDate> 
-					<description><![CDATA[The win was declared by the Guam Democratic Party.]]></description> 
-					
-					<category>Politics</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/International/WireAP_d3f4d2d8266f42aea8f6531895e2edbc_4x3t_384.jpg" width="384" height="288" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/International/WireAP_d3f4d2d8266f42aea8f6531895e2edbc_4x3t_144.jpg" width="144" height="108" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/International/WireAP_d3f4d2d8266f42aea8f6531895e2edbc_4x3t_384.jpg" width="384" height="288" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/International/WireAP_d3f4d2d8266f42aea8f6531895e2edbc_16x9t_240.jpg" width="240" height="135" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/International/WireAP_d3f4d2d8266f42aea8f6531895e2edbc_4x3_608.jpg" width="608" height="456" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/International/WireAP_d3f4d2d8266f42aea8f6531895e2edbc_16x9_992.jpg" width="992" height="558" credit="The Associated Press"  /> 
-					
-					<media:keywords>9</media:keywords>
+		<description>NICE, France/TUNIS (Reuters) - The man who mowed through a crowd with a truck, killing 84 Bastille Day revelers in Nice on Thursday, had phoned home hours earlier and sent a 'laughing' picture from the French city, his brother told Reuters.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=dQG9HwCdjms:tUecqzXLjPQ:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=dQG9HwCdjms:tUecqzXLjPQ:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=dQG9HwCdjms:tUecqzXLjPQ:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=dQG9HwCdjms:tUecqzXLjPQ:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=dQG9HwCdjms:tUecqzXLjPQ:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/reuters/topNews/~4/dQG9HwCdjms" height="1" width="1" alt=""/&gt;</description>
+		<link>http://feeds.reuters.com/~r/reuters/topNews/~3/dQG9HwCdjms/us-europe-attacks-nice-arrests-idUSKCN0ZX04L</link>
+        <guid isPermaLink="false">http://www.reuters.com/article/us-europe-attacks-nice-arrests-idUSKCN0ZX04L?feedType=RSS&amp;feedName=topNews</guid>
+        <category>topNews</category>
+		<pubDate>Sun, 17 Jul 2016 14:59:53 -0400</pubDate>
+		<feedburner:origLink>http://www.reuters.com/article/us-europe-attacks-nice-arrests-idUSKCN0ZX04L?feedType=RSS&amp;feedName=topNews</feedburner:origLink></item>
+<item>
+		<title>Trump condemns killings of police overshadowing convention</title>
 
-					<title><![CDATA[Officials Hope to Complete Alberta Wildfire Evacuation]]></title>
-					<link><![CDATA[http://abcnews.go.com/International/wireStory/wildfire-evacuees-glimpse-canada-burned-city-38947884]]></link>
-					<guid><![CDATA[http://abcnews.go.com/International/wireStory/wildfire-evacuees-glimpse-canada-burned-city-38947884]]></guid>
-					<pubDate>Sat, 07 May 2016 16:01:35 -0400</pubDate> 
-					<description><![CDATA[Canadian officials hope to complete the evacuation of work camps north of Alberta's main oil sands city on Saturday as they fear a massive wildfire could double in size, reach a major oil sands mine and even the neighboring province of Saskatchewan]]></description> 
-					
-					<category>International</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/Politics/ap_hillary_clinton_01_mt_160503_4x3t_384.jpg" width="384" height="288" credit="Paul Sancya/AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/ap_hillary_clinton_01_mt_160503_4x3t_144.jpg" width="144" height="108" credit="Paul Sancya/AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/ap_hillary_clinton_01_mt_160503_4x3t_384.jpg" width="384" height="288" credit="Paul Sancya/AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/ap_hillary_clinton_01_mt_160503_16x9t_240.jpg" width="240" height="135" credit="Paul Sancya/AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/ap_hillary_clinton_01_mt_160503_4x3_608.jpg" width="608" height="456" credit="Paul Sancya/AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/ap_hillary_clinton_01_mt_160503_16x9_992.jpg" width="992" height="558" credit="Paul Sancya/AP Photo"  /> 
-					
-                           <media:content />
 
-                    
-					<media:keywords>10</media:keywords>
+		<description>CLEVELAND (Reuters) - Donald Trump condemned the killings on Sunday of three Louisiana police officers as the fresh spasm of violence put a somber note on the opening of the Republican National Convention due this week to formally nominate him for the White House.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=TFqYO35BxVY:mz4yRDK27gU:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=TFqYO35BxVY:mz4yRDK27gU:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=TFqYO35BxVY:mz4yRDK27gU:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=TFqYO35BxVY:mz4yRDK27gU:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=TFqYO35BxVY:mz4yRDK27gU:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/reuters/topNews/~4/TFqYO35BxVY" height="1" width="1" alt=""/&gt;</description>
+		<link>http://feeds.reuters.com/~r/reuters/topNews/~3/TFqYO35BxVY/us-usa-election-idUSKCN0ZX0B5</link>
+        <guid isPermaLink="false">http://www.reuters.com/article/us-usa-election-idUSKCN0ZX0B5?feedType=RSS&amp;feedName=topNews</guid>
+        <category>topNews</category>
+		<pubDate>Sun, 17 Jul 2016 15:37:35 -0400</pubDate>
+		<feedburner:origLink>http://www.reuters.com/article/us-usa-election-idUSKCN0ZX0B5?feedType=RSS&amp;feedName=topNews</feedburner:origLink></item>
+<item>
+		<title>At height of Turkish coup bid, rebel jets had Erdogan's plane in their sights</title>
 
-					<title><![CDATA[Clinton Nicknames Trump the ‘Presumptuous Nominee’]]></title>
-					<link><![CDATA[http://abcnews.go.com/Politics/hillary-clinton-dubs-donald-trump-presumptuous-nominee/story?id=38945606]]></link>
-					<guid><![CDATA[http://abcnews.go.com/Politics/hillary-clinton-dubs-donald-trump-presumptuous-nominee/story?id=38945606]]></guid>
-					<pubDate>Sat, 07 May 2016 00:07:10 -0400</pubDate> 
-					<description><![CDATA[The presidential hopeful gives Trump a taste of his own name-calling medicine. ]]></description> 
-					
-					<category>Politics</category> 
-					
-					</item>
-	
-					<item>
-					
-					 <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mn.jpg" width="320" height="240" /> <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mc.jpg" width="100" height="75" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mv.jpg" width="264" height="198" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wl.jpg" width="200" height="112" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_main.jpg" width="413" height="310" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wmain.jpg" width="300" height="168" /> 
-					
-					<media:keywords>11</media:keywords>
 
-					<title><![CDATA[Filipino Mayor Draws Huge Crowd in Show of Force Before Vote]]></title>
-					<link><![CDATA[http://abcnews.go.com/International/wireStory/philippine-campaign-ends-panic-trump-mayor-leads-38948352]]></link>
-					<guid><![CDATA[http://abcnews.go.com/International/wireStory/philippine-campaign-ends-panic-trump-mayor-leads-38948352]]></guid>
-					<pubDate>Sat, 07 May 2016 11:03:39 -0400</pubDate> 
-					<description><![CDATA[The outspoken city mayor who is the front-runner in the Philippine presidential race has drawn the largest crowd as the candidates held their final rallies, despite efforts by the president to block his election bid]]></description> 
-					
-					<category>International</category> 
-					
-					</item>
-	
-					<item>
-					
-					 <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mn.jpg" width="320" height="240" /> <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mc.jpg" width="100" height="75" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mv.jpg" width="264" height="198" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wl.jpg" width="200" height="112" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_main.jpg" width="413" height="310" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wmain.jpg" width="300" height="168" /> 
-					
-					<media:keywords>12</media:keywords>
+		<description>ANKARA/ISTANBUL (Reuters) - At the height of the attempt to overthrow Turkish President Tayyip Erdogan, the rebel pilots of two F-16 fighter jets had Erdogan's plane in their sights. And yet he was able to fly on.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=lhTvZe0cgok:GRR91_n-wOE:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=lhTvZe0cgok:GRR91_n-wOE:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=lhTvZe0cgok:GRR91_n-wOE:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=lhTvZe0cgok:GRR91_n-wOE:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=lhTvZe0cgok:GRR91_n-wOE:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/reuters/topNews/~4/lhTvZe0cgok" height="1" width="1" alt=""/&gt;</description>
+		<link>http://feeds.reuters.com/~r/reuters/topNews/~3/lhTvZe0cgok/us-turkey-security-plot-insight-idUSKCN0ZX0Q9</link>
+        <guid isPermaLink="false">http://www.reuters.com/article/us-turkey-security-plot-insight-idUSKCN0ZX0Q9?feedType=RSS&amp;feedName=topNews</guid>
+        <category>topNews</category>
+		<pubDate>Sun, 17 Jul 2016 12:53:32 -0400</pubDate>
+		<feedburner:origLink>http://www.reuters.com/article/us-turkey-security-plot-insight-idUSKCN0ZX0Q9?feedType=RSS&amp;feedName=topNews</feedburner:origLink></item>
+<item>
+		<title>Exclusive: Brother of Nice attacker says he sent 'laughing' photo amid crowds</title>
 
-					<title><![CDATA[Turbulence Injures 17 on Indonesia-Hong Kong Flight]]></title>
-					<link><![CDATA[http://abcnews.go.com/International/wireStory/turbulence-injures-17-indonesia-hong-kong-flight-38949344]]></link>
-					<guid><![CDATA[http://abcnews.go.com/International/wireStory/turbulence-injures-17-indonesia-hong-kong-flight-38949344]]></guid>
-					<pubDate>Sat, 07 May 2016 03:44:27 -0400</pubDate> 
-					<description><![CDATA[Seventeen passengers and crew have been injured when a Hong Kong Airlines' flight ran into severe turbulence early Saturday on the way from Indonesia's resort Bali island to Hong Kong]]></description> 
-					
-					<category>International</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/US/WireAP_d22a37c0cd2a4eefbb9fdaf226a771c1_4x3t_384.jpg" width="384" height="289" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/US/WireAP_d22a37c0cd2a4eefbb9fdaf226a771c1_4x3t_144.jpg" width="144" height="108" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/US/WireAP_d22a37c0cd2a4eefbb9fdaf226a771c1_4x3t_384.jpg" width="384" height="289" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/US/WireAP_d22a37c0cd2a4eefbb9fdaf226a771c1_16x9t_240.jpg" width="240" height="135" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/US/WireAP_d22a37c0cd2a4eefbb9fdaf226a771c1_4x3_608.jpg" width="608" height="456" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/US/WireAP_d22a37c0cd2a4eefbb9fdaf226a771c1_16x9_608.jpg" width="608" height="342" credit="The Associated Press"  /> 
-					
-					<media:keywords>13</media:keywords>
 
-					<title><![CDATA[Police Find Dead Woman in Trunk, 2 Juveniles in Hawaii Home]]></title>
-					<link><![CDATA[http://abcnews.go.com/US/wireStory/police-find-dead-woman-trunk-juveniles-hawaii-home-38948924]]></link>
-					<guid><![CDATA[http://abcnews.go.com/US/wireStory/police-find-dead-woman-trunk-juveniles-hawaii-home-38948924]]></guid>
-					<pubDate>Sat, 07 May 2016 09:39:31 -0400</pubDate> 
-					<description><![CDATA[A Hawaii man remains jailed on suspicion of three murders after officers responding to a home disturbance arrived just as he was driving away from the scene with blood dripping from the trunk of his car]]></description> 
-					
-					<category>US</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/Politics/WireAP_228cb3c309c9468880f2dad53df3bdf0_4x3t_384.jpg" width="384" height="288" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/WireAP_228cb3c309c9468880f2dad53df3bdf0_4x3t_144.jpg" width="144" height="108" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/WireAP_228cb3c309c9468880f2dad53df3bdf0_4x3t_384.jpg" width="384" height="288" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/WireAP_228cb3c309c9468880f2dad53df3bdf0_16x9t_240.jpg" width="240" height="135" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/WireAP_228cb3c309c9468880f2dad53df3bdf0_4x3_608.jpg" width="608" height="456" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/WireAP_228cb3c309c9468880f2dad53df3bdf0_16x9_992.jpg" width="992" height="558" credit="The Associated Press"  /> 
-					
-                           <media:content />
+		<description>TUNIS (Reuters) - The Tunisian man who killed at least 84 people in France by mowing down Bastille Day revelers with a lorry had phoned his brother hours earlier and sent a picture of himself laughing as he mingled with the crowd, the brother told Reuters.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=rzZXLctNQKo:nKJsPLCrK5Q:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=rzZXLctNQKo:nKJsPLCrK5Q:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=rzZXLctNQKo:nKJsPLCrK5Q:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=rzZXLctNQKo:nKJsPLCrK5Q:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=rzZXLctNQKo:nKJsPLCrK5Q:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/reuters/topNews/~4/rzZXLctNQKo" height="1" width="1" alt=""/&gt;</description>
+		<link>http://feeds.reuters.com/~r/reuters/topNews/~3/rzZXLctNQKo/us-europe-attacks-nice-attacker-exclusiv-idUSKCN0ZX0K0</link>
+        <guid isPermaLink="false">http://www.reuters.com/article/us-europe-attacks-nice-attacker-exclusiv-idUSKCN0ZX0K0?feedType=RSS&amp;feedName=topNews</guid>
+        <category>topNews</category>
+		<pubDate>Sun, 17 Jul 2016 10:14:19 -0400</pubDate>
+		<feedburner:origLink>http://www.reuters.com/article/us-europe-attacks-nice-attacker-exclusiv-idUSKCN0ZX0K0?feedType=RSS&amp;feedName=topNews</feedburner:origLink></item>
+<item>
+		<title>In U.S. cities hit by killings, shared concerns over cops' tactics, race</title>
 
-                    
-					<media:keywords>14</media:keywords>
 
-					<title><![CDATA[Obama: US in 'Better Place' Than When He Graduated College]]></title>
-					<link><![CDATA[http://abcnews.go.com/Politics/wireStory/obama-howard-graduates-profound-lie-ahead-38949342]]></link>
-					<guid><![CDATA[http://abcnews.go.com/Politics/wireStory/obama-howard-graduates-profound-lie-ahead-38949342]]></guid>
-					<pubDate>Sat, 07 May 2016 14:18:15 -0400</pubDate> 
-					<description><![CDATA[President Barack Obama says the country is "a better place today" than when he graduated from college more than 30 years ago, citing his historic election as "one indicator of how attitudes have changed."]]></description> 
-					
-					<category>Politics</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/US/HT_eulalio_tordil_02_jef_160506_4x3t_384.jpg" width="384" height="288" credit="Prince George&apos;s County Police Department" /> <media:thumbnail url="http://a.abcnews.com/images/US/HT_eulalio_tordil_02_jef_160506_4x3t_144.jpg" width="144" height="108" credit="Prince George&apos;s County Police Department" /> <media:thumbnail url="http://a.abcnews.com/images/US/HT_eulalio_tordil_02_jef_160506_4x3t_384.jpg" width="384" height="288" credit="Prince George&apos;s County Police Department" /> <media:thumbnail url="http://a.abcnews.com/images/US/HT_eulalio_tordil_02_jef_160506_16x9t_240.jpg" width="240" height="135" credit="Prince George&apos;s County Police Department" /> <media:thumbnail url="http://a.abcnews.com/images/US/HT_eulalio_tordil_02_jef_160506_4x3_608.jpg" width="608" height="456" credit="Prince George&apos;s County Police Department" /> <media:thumbnail url="http://a.abcnews.com/images/US/HT_eulalio_tordil_02_jef_160506_16x9_992.jpg" width="992" height="558" credit="Prince George&apos;s County Police Department"  /> 
-					
-					<media:keywords>15</media:keywords>
-
-					<title><![CDATA[Maryland Suspect in Custody After 3 Deadly Shootings ]]></title>
-					<link><![CDATA[http://abcnews.go.com/US/shot-mall-maryland-suspect-remains-large/story?id=38929714]]></link>
-					<guid><![CDATA[http://abcnews.go.com/US/shot-mall-maryland-suspect-remains-large/story?id=38929714]]></guid>
-					<pubDate>Fri, 06 May 2016 17:54:09 -0400</pubDate> 
-					<description><![CDATA[The suspect was apprehended after he was seen eating at a Boston Market.]]></description> 
-					
-					<category>US</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/Sports/WireAP_9c8c4a7fe5fc486992e74f40550345ca_4x3t_384.jpg" width="384" height="288" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/Sports/WireAP_9c8c4a7fe5fc486992e74f40550345ca_4x3t_144.jpg" width="144" height="108" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/Sports/WireAP_9c8c4a7fe5fc486992e74f40550345ca_4x3t_384.jpg" width="384" height="288" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/Sports/WireAP_9c8c4a7fe5fc486992e74f40550345ca_16x9t_240.jpg" width="240" height="135" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/Sports/WireAP_9c8c4a7fe5fc486992e74f40550345ca_4x3_608.jpg" width="608" height="456" credit="The Associated Press" /> <media:thumbnail url="http://a.abcnews.com/images/Sports/WireAP_9c8c4a7fe5fc486992e74f40550345ca_16x9_992.jpg" width="992" height="558" credit="The Associated Press"  /> 
-					
-					<media:keywords>16</media:keywords>
-
-					<title><![CDATA[Penn State Has No Records of 1976 Sandusky Molestation Claim]]></title>
-					<link><![CDATA[http://abcnews.go.com/Sports/wireStory/latest-penn-state-records-paterno-claim-38943725]]></link>
-					<guid><![CDATA[http://abcnews.go.com/Sports/wireStory/latest-penn-state-records-paterno-claim-38943725]]></guid>
-					<pubDate>Fri, 06 May 2016 20:07:59 -0400</pubDate> 
-					<description><![CDATA[Penn State says it doesn't have records from 40 years ago to evaluate a claim]]></description> 
-					
-					<category>Sports</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/Business/GTY_Harvard_02_jrl_160506.jpg_4x3t_384.jpg" width="384" height="288" credit=" Victor J. Blue/Bloomberg via Getty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Business/GTY_Harvard_02_jrl_160506.jpg_4x3t_144.jpg" width="144" height="108" credit=" Victor J. Blue/Bloomberg via Getty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Business/GTY_Harvard_02_jrl_160506.jpg_4x3t_384.jpg" width="384" height="288" credit=" Victor J. Blue/Bloomberg via Getty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Business/GTY_Harvard_02_jrl_160506.jpg_16x9t_240.jpg" width="240" height="135" credit=" Victor J. Blue/Bloomberg via Getty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Business/GTY_Harvard_02_jrl_160506.jpg_4x3_608.jpg" width="608" height="456" credit=" Victor J. Blue/Bloomberg via Getty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Business/GTY_Harvard_02_jrl_160506.jpg_16x9_992.jpg" width="992" height="558" credit=" Victor J. Blue/Bloomberg via Getty Images"  /> 
-					
-					<media:keywords>17</media:keywords>
-
-					<title><![CDATA[Harvard Tackles Gender Discrimination by Targeting Single-Gender Clubs]]></title>
-					<link><![CDATA[http://abcnews.go.com/Business/harvard-tackles-gender-discrimination-targeting-single-gender-clubs/story?id=38938162]]></link>
-					<guid><![CDATA[http://abcnews.go.com/Business/harvard-tackles-gender-discrimination-targeting-single-gender-clubs/story?id=38938162]]></guid>
-					<pubDate>Fri, 06 May 2016 19:03:04 -0400</pubDate> 
-					<description><![CDATA[The university is discouraging new students from joining single-gender clubs.]]></description> 
-					
-					<category>Business</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/Politics/528524200_1_4x3t_384.jpg" width="384" height="288" credit="Mark LyonsGetty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/528524200_1_4x3t_144.jpg" width="144" height="108" credit="Mark LyonsGetty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/528524200_1_4x3t_384.jpg" width="384" height="288" credit="Mark LyonsGetty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/528524200_1_16x9t_240.jpg" width="240" height="135" credit="Mark LyonsGetty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/528524200_1_4x3_608.jpg" width="608" height="456" credit="Mark LyonsGetty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/528524200_1_16x9_992.jpg" width="992" height="558" credit="Mark LyonsGetty Images"  /> 
-					
-                           <media:content />
-
-                    
-					<media:keywords>18</media:keywords>
-
-					<title><![CDATA[Donald Trump to Paul Ryan: 'This is What the People Want']]></title>
-					<link><![CDATA[http://abcnews.go.com/Politics/donald-trump-paul-ryan-people/story?id=38942373]]></link>
-					<guid><![CDATA[http://abcnews.go.com/Politics/donald-trump-paul-ryan-people/story?id=38942373]]></guid>
-					<pubDate>Fri, 06 May 2016 19:17:20 -0400</pubDate> 
-					<description><![CDATA[Trump responds to Paul Ryan, says he earned his nomination from the people.]]></description> 
-					
-					<category>Politics</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_lindsey_graham_as_160506_4x3t_384.jpg" width="384" height="288" credit="Frederic J. Brown/AFP/Getty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_lindsey_graham_as_160506_4x3t_144.jpg" width="144" height="108" credit="Frederic J. Brown/AFP/Getty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_lindsey_graham_as_160506_4x3t_384.jpg" width="384" height="288" credit="Frederic J. Brown/AFP/Getty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_lindsey_graham_as_160506_16x9t_240.jpg" width="240" height="135" credit="Frederic J. Brown/AFP/Getty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_lindsey_graham_as_160506_4x3_608.jpg" width="608" height="456" credit="Frederic J. Brown/AFP/Getty Images" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/GTY_lindsey_graham_as_160506_16x9_992.jpg" width="992" height="558" credit="Frederic J. Brown/AFP/Getty Images"  /> 
-					
-                           <media:content />
-
-                    
-					<media:keywords>19</media:keywords>
-
-					<title><![CDATA[Trump Calls Lindsey Graham 'Beyond Rehabilitation']]></title>
-					<link><![CDATA[http://abcnews.go.com/Politics/lindsey-graham-support-donald-trump/story?id=38932780]]></link>
-					<guid><![CDATA[http://abcnews.go.com/Politics/lindsey-graham-support-donald-trump/story?id=38932780]]></guid>
-					<pubDate>Fri, 06 May 2016 17:11:05 -0400</pubDate> 
-					<description><![CDATA[Sen. Lindsey Graham says he can't "in good conscience" support likely nominee.]]></description> 
-					
-					<category>Politics</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/Politics/AP_north_carolina_protest_cf_160505_4x3t_384.jpg" width="384" height="288" credit="Robert Willett/The News &amp; Observer via AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/AP_north_carolina_protest_cf_160505_4x3t_144.jpg" width="144" height="108" credit="Robert Willett/The News &amp; Observer via AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/AP_north_carolina_protest_cf_160505_4x3t_384.jpg" width="384" height="288" credit="Robert Willett/The News &amp; Observer via AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/AP_north_carolina_protest_cf_160505_16x9t_240.jpg" width="240" height="135" credit="Robert Willett/The News &amp; Observer via AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/AP_north_carolina_protest_cf_160505_4x3_608.jpg" width="608" height="456" credit="Robert Willett/The News &amp; Observer via AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/AP_north_carolina_protest_cf_160505_16x9_992.jpg" width="992" height="558" credit="Robert Willett/The News &amp; Observer via AP Photo"  /> 
-					
-					<media:keywords>20</media:keywords>
-
-					<title><![CDATA[A Look at NC 'Bathroom Bill' as DOJ Deadline Looms ]]></title>
-					<link><![CDATA[http://abcnews.go.com/US/nc-bathroom-bill-doj-deadline-looms/story?id=38931481]]></link>
-					<guid><![CDATA[http://abcnews.go.com/US/nc-bathroom-bill-doj-deadline-looms/story?id=38931481]]></guid>
-					<pubDate>Fri, 06 May 2016 17:52:28 -0400</pubDate> 
-					<description><![CDATA[“That deadline will come and go,” a state GOP lawmaker said of federal warnings.]]></description> 
-					
-					<category>US</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/International/ht_canada_wildfire_space_01_jc_160506_4x3t_384.jpg" width="384" height="288" credit="@astro_timpeake/Twitter" /> <media:thumbnail url="http://a.abcnews.com/images/International/ht_canada_wildfire_space_01_jc_160506_4x3t_144.jpg" width="144" height="108" credit="@astro_timpeake/Twitter" /> <media:thumbnail url="http://a.abcnews.com/images/International/ht_canada_wildfire_space_01_jc_160506_4x3t_384.jpg" width="384" height="288" credit="@astro_timpeake/Twitter" /> <media:thumbnail url="http://a.abcnews.com/images/International/ht_canada_wildfire_space_01_jc_160506_16x9t_240.jpg" width="240" height="135" credit="@astro_timpeake/Twitter" /> <media:thumbnail url="http://a.abcnews.com/images/International/ht_canada_wildfire_space_01_jc_160506_4x3_608.jpg" width="608" height="456" credit="@astro_timpeake/Twitter" /> <media:thumbnail url="http://a.abcnews.com/images/International/ht_canada_wildfire_space_01_jc_160506_16x9_992.jpg" width="992" height="558" credit="@astro_timpeake/Twitter"  /> 
-					
-					<media:keywords>21</media:keywords>
-
-					<title><![CDATA[Smoke From Canada Wildfires Visible From Space]]></title>
-					<link><![CDATA[http://abcnews.go.com/International/smoke-canada-wildfires-visible-space/story?id=38938947]]></link>
-					<guid><![CDATA[http://abcnews.go.com/International/smoke-canada-wildfires-visible-space/story?id=38938947]]></guid>
-					<pubDate>Fri, 06 May 2016 17:13:54 -0400</pubDate> 
-					<description><![CDATA[The fires have covered 249,500 acres so far.]]></description> 
-					
-					<category>International</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/International/GTY_Prince_Harry_Invictus_jrl_160506_4x3t_384.jpg" width="384" height="288" credit="Chris Jackson/Getty Images for Invictus Games" /> <media:thumbnail url="http://a.abcnews.com/images/International/GTY_Prince_Harry_Invictus_jrl_160506_4x3t_144.jpg" width="144" height="108" credit="Chris Jackson/Getty Images for Invictus Games" /> <media:thumbnail url="http://a.abcnews.com/images/International/GTY_Prince_Harry_Invictus_jrl_160506_4x3t_384.jpg" width="384" height="288" credit="Chris Jackson/Getty Images for Invictus Games" /> <media:thumbnail url="http://a.abcnews.com/images/International/GTY_Prince_Harry_Invictus_jrl_160506_16x9t_240.jpg" width="240" height="135" credit="Chris Jackson/Getty Images for Invictus Games" /> <media:thumbnail url="http://a.abcnews.com/images/International/GTY_Prince_Harry_Invictus_jrl_160506_4x3_608.jpg" width="608" height="456" credit="Chris Jackson/Getty Images for Invictus Games" /> <media:thumbnail url="http://a.abcnews.com/images/International/GTY_Prince_Harry_Invictus_jrl_160506_16x9_992.jpg" width="992" height="558" credit="Chris Jackson/Getty Images for Invictus Games"  /> 
-					
-					<media:keywords>22</media:keywords>
-
-					<title><![CDATA[Prince Harry Says Invictus Games Are About Second Chances]]></title>
-					<link><![CDATA[http://abcnews.go.com/International/prince-harry-tours-invictus-games-competition-site-games/story?id=38938896]]></link>
-					<guid><![CDATA[http://abcnews.go.com/International/prince-harry-tours-invictus-games-competition-site-games/story?id=38938896]]></guid>
-					<pubDate>Fri, 06 May 2016 17:17:37 -0400</pubDate> 
-					<description><![CDATA[The games begin this Sunday in Orlando.]]></description> 
-					
-					<category>International</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/International/ABC_terry_moran_north_korea_01_jef_160506_4x3t_384.jpg" width="384" height="288" credit="ABC News" /> <media:thumbnail url="http://a.abcnews.com/images/International/ABC_terry_moran_north_korea_01_jef_160506_4x3t_144.jpg" width="144" height="108" credit="ABC News" /> <media:thumbnail url="http://a.abcnews.com/images/International/ABC_terry_moran_north_korea_01_jef_160506_4x3t_384.jpg" width="384" height="288" credit="ABC News" /> <media:thumbnail url="http://a.abcnews.com/images/International/ABC_terry_moran_north_korea_01_jef_160506_16x9t_240.jpg" width="240" height="135" credit="ABC News" /> <media:thumbnail url="http://a.abcnews.com/images/International/ABC_terry_moran_north_korea_01_jef_160506_4x3_608.jpg" width="608" height="456" credit="ABC News" /> <media:thumbnail url="http://a.abcnews.com/images/International/ABC_terry_moran_north_korea_01_jef_160506_16x9_992.jpg" width="992" height="558" credit="ABC News"  /> 
-					
-					<media:keywords>23</media:keywords>
-
-					<title><![CDATA[Surreal Spectacle of North Korea's First Party Congress in 36 Years]]></title>
-					<link><![CDATA[http://abcnews.go.com/International/north-koreas-party-congress-1980-hand-account-surreal/story?id=38926568]]></link>
-					<guid><![CDATA[http://abcnews.go.com/International/north-koreas-party-congress-1980-hand-account-surreal/story?id=38926568]]></guid>
-					<pubDate>Fri, 06 May 2016 15:58:03 -0400</pubDate> 
-					<description><![CDATA[For the first time in a generation, North Korea's ruling party gathered today to hail its leader and plot a course for this isolated country's future.]]></description> 
-					
-					<category>International</category> 
-					
-					</item>
-	
-					<item>
-					
-					 <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mn.jpg" width="320" height="240" /> <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mc.jpg" width="100" height="75" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mv.jpg" width="264" height="198" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wl.jpg" width="200" height="112" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_main.jpg" width="413" height="310" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wmain.jpg" width="300" height="168" /> 
-					
-					<media:keywords>24</media:keywords>
-
-					<title><![CDATA[Durant's Mother, the 'Real MVP,' Subject of Lifetime Movie]]></title>
-					<link><![CDATA[http://abcnews.go.com/Entertainment/wireStory/durants-mother-real-mvp-subject-lifetime-movie-38949024]]></link>
-					<guid><![CDATA[http://abcnews.go.com/Entertainment/wireStory/durants-mother-real-mvp-subject-lifetime-movie-38949024]]></guid>
-					<pubDate>Sat, 07 May 2016 16:09:24 -0400</pubDate> 
-					<description><![CDATA[With a single sentence uttered by her world-famous son Kevin Durant, Wanda Pratt's life changed forever]]></description> 
-					
-					<category>Entertainment</category> 
-					
-					</item>
-	
-					<item>
-					
-					 <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mn.jpg" width="320" height="240" /> <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mc.jpg" width="100" height="75" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mv.jpg" width="264" height="198" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wl.jpg" width="200" height="112" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_main.jpg" width="413" height="310" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wmain.jpg" width="300" height="168" /> 
-					
-					<media:keywords>25</media:keywords>
-
-					<title><![CDATA[Spanish Government Says Three Journalists Who Went Missing in Syria Last Year Have Been Released]]></title>
-					<link><![CDATA[http://abcnews.go.com/International/wireStory/spanish-government-journalists-missing-syria-year-released-38956303]]></link>
-					<guid><![CDATA[http://abcnews.go.com/International/wireStory/spanish-government-journalists-missing-syria-year-released-38956303]]></guid>
-					<pubDate>Sat, 07 May 2016 16:08:33 -0400</pubDate> 
-					<description><![CDATA[Spanish government says three journalists who went missing in Syria last year have been released]]></description> 
-					
-					<category>International</category> 
-					
-					</item>
-	
-					<item>
-					
-					 <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mn.jpg" width="320" height="240" /> <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mc.jpg" width="100" height="75" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mv.jpg" width="264" height="198" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wl.jpg" width="200" height="112" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_main.jpg" width="413" height="310" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wmain.jpg" width="300" height="168" /> 
-					
-					<media:keywords>26</media:keywords>
-
-					<title><![CDATA[Rita Moreno Busts a Rhyme at Berklee Commencement Ceremony]]></title>
-					<link><![CDATA[http://abcnews.go.com/Entertainment/wireStory/rita-moreno-busts-rhyme-berklee-commencement-ceremony-38956436]]></link>
-					<guid><![CDATA[http://abcnews.go.com/Entertainment/wireStory/rita-moreno-busts-rhyme-berklee-commencement-ceremony-38956436]]></guid>
-					<pubDate>Sat, 07 May 2016 16:10:33 -0400</pubDate> 
-					<description><![CDATA[Award-winning actress and singer Rita Moreno showed off her rapping skills while delivering the commencement address at Boston's Berklee College of Music on Saturday]]></description> 
-					
-					<category>Entertainment</category> 
-					
-					</item>
-	
-					<item>
-					
-					 <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mn.jpg" width="320" height="240" /> <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mc.jpg" width="100" height="75" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mv.jpg" width="264" height="198" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wl.jpg" width="200" height="112" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_main.jpg" width="413" height="310" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wmain.jpg" width="300" height="168" /> 
-					
-					<media:keywords>27</media:keywords>
-
-					<title><![CDATA[AP Top Entertainment News at 4:06 P.m. EDT]]></title>
-					<link><![CDATA[http://abcnews.go.com/Entertainment/wireStory/ap-top-entertainment-news-342-edt-38949451]]></link>
-					<guid><![CDATA[http://abcnews.go.com/Entertainment/wireStory/ap-top-entertainment-news-342-edt-38949451]]></guid>
-					<pubDate>Sat, 07 May 2016 16:08:16 -0400</pubDate> 
-					<description><![CDATA[AP Top Entertainment News at 4:06 p.m. EDT]]></description> 
-					
-					<category>Entertainment</category> 
-					
-					</item>
-	
-					<item>
-					
-					 <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mn.jpg" width="320" height="240" /> <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mc.jpg" width="100" height="75" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mv.jpg" width="264" height="198" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wl.jpg" width="200" height="112" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_main.jpg" width="413" height="310" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wmain.jpg" width="300" height="168" /> 
-					
-					<media:keywords>28</media:keywords>
-
-					<title><![CDATA[The Latest: Weather Takes Turn, Rain Could Fall for Derby]]></title>
-					<link><![CDATA[http://abcnews.go.com/Sports/wireStory/latest-derby-day-weather-iffy-proposition-38954512]]></link>
-					<guid><![CDATA[http://abcnews.go.com/Sports/wireStory/latest-derby-day-weather-iffy-proposition-38954512]]></guid>
-					<pubDate>Sat, 07 May 2016 16:07:50 -0400</pubDate> 
-					<description><![CDATA[Thunderstorms are rumbling toward Louisville and rain is quite possible around post time for the Kentucky Derby.]]></description> 
-					
-					<category>Sports</category> 
-					
-					</item>
-	
-					<item>
-					
-					 <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mn.jpg" width="320" height="240" /> <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mc.jpg" width="100" height="75" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_mv.jpg" width="264" height="198" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wl.jpg" width="200" height="112" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_main.jpg" width="413" height="310" />  <media:thumbnail url="http://a.abcnews.com/images/Site/abc_default_image_wmain.jpg" width="300" height="168" /> 
-					
-					<media:keywords>29</media:keywords>
-
-					<title><![CDATA[Wildfire Evacuees Get Supplies, Support at Evacuation Center]]></title>
-					<link><![CDATA[http://abcnews.go.com/International/wireStory/wildfire-evacuees-supplies-support-evacuation-center-38956253]]></link>
-					<guid><![CDATA[http://abcnews.go.com/International/wireStory/wildfire-evacuees-supplies-support-evacuation-center-38956253]]></guid>
-					<pubDate>Sat, 07 May 2016 16:05:04 -0400</pubDate> 
-					<description><![CDATA[A community recreation center has become a lifeline for thousands of evacuees from the massive wildfire raging north of this small city]]></description> 
-					
-					<category>International</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/International/AP_canada_wildfires_2_jt_160507_mn_4x3t_384.jpg" width="384" height="288" credit="Jason Franson/The Canadian Press via AP" /> <media:thumbnail url="http://a.abcnews.com/images/International/AP_canada_wildfires_2_jt_160507_mn_4x3t_144.jpg" width="144" height="108" credit="Jason Franson/The Canadian Press via AP" /> <media:thumbnail url="http://a.abcnews.com/images/International/AP_canada_wildfires_2_jt_160507_mn_4x3t_384.jpg" width="384" height="288" credit="Jason Franson/The Canadian Press via AP" /> <media:thumbnail url="http://a.abcnews.com/images/International/AP_canada_wildfires_2_jt_160507_mn_16x9t_240.jpg" width="240" height="135" credit="Jason Franson/The Canadian Press via AP" /> <media:thumbnail url="http://a.abcnews.com/images/International/AP_canada_wildfires_2_jt_160507_mn_4x3_608.jpg" width="608" height="456" credit="Jason Franson/The Canadian Press via AP" /> <media:thumbnail url="http://a.abcnews.com/images/International/AP_canada_wildfires_2_jt_160507_mn_16x9_992.jpg" width="992" height="558" credit="Jason Franson/The Canadian Press via AP"  /> 
-					
-					<media:keywords>30</media:keywords>
-
-					<title><![CDATA[ Photos:  Wildfire Forces Evacuation of Canadian City]]></title>
-					<link><![CDATA[http://abcnews.go.com/International/photos/wildfire-forces-evacuation-fort-mcmurray-canada-38867911]]></link>
-					<guid><![CDATA[http://abcnews.go.com/International/photos/wildfire-forces-evacuation-fort-mcmurray-canada-38867911]]></guid>
-					<pubDate>Sat, 07 May 2016 11:59:25 -0400</pubDate> 
-					<description><![CDATA[Photos of the wildfire threatening Fort McMurray and surrounding areas.]]></description> 
-					
-					<category>International</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/Entertainment/HT_adam_levine_wife_selfie_mm_160504_mn_4x3t_384.jpg" width="384" height="289" credit="adamlevine/Instagram " /> <media:thumbnail url="http://a.abcnews.com/images/Entertainment/HT_adam_levine_wife_selfie_mm_160504_mn_4x3t_144.jpg" width="144" height="108" credit="adamlevine/Instagram " /> <media:thumbnail url="http://a.abcnews.com/images/Entertainment/HT_adam_levine_wife_selfie_mm_160504_mn_4x3t_384.jpg" width="384" height="289" credit="adamlevine/Instagram " /> <media:thumbnail url="http://a.abcnews.com/images/Entertainment/HT_adam_levine_wife_selfie_mm_160504_mn_16x9t_240.jpg" width="240" height="135" credit="adamlevine/Instagram " /> <media:thumbnail url="http://a.abcnews.com/images/Entertainment/HT_adam_levine_wife_selfie_mm_160504_mn_4x3_608.jpg" width="608" height="456" credit="adamlevine/Instagram " /> <media:thumbnail url="http://a.abcnews.com/images/Entertainment/HT_adam_levine_wife_selfie_mm_160504_mn_16x9_992.jpg" width="992" height="558" credit="adamlevine/Instagram "  /> 
-					
-					<media:keywords>31</media:keywords>
-
-					<title><![CDATA[ Photos:  Adam Levine and His Pregnant Wife Behati Prinsloo Take a Selfie]]></title>
-					<link><![CDATA[http://abcnews.go.com/Entertainment/photos/celebrity-baby-boom-10702555]]></link>
-					<guid><![CDATA[http://abcnews.go.com/Entertainment/photos/celebrity-baby-boom-10702555]]></guid>
-					<pubDate>Wed, 04 May 2016 07:15:03 -0400</pubDate> 
-					<description><![CDATA[Celebrity Baby Boom]]></description> 
-					
-					<category>Entertainment</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/US/EPA_Obama_flint_cf_160504_mn_4x3t_384.jpg" width="384" height="288" credit="Jeff Kowalsky/EPA" /> <media:thumbnail url="http://a.abcnews.com/images/US/EPA_Obama_flint_cf_160504_mn_4x3t_144.jpg" width="144" height="108" credit="Jeff Kowalsky/EPA" /> <media:thumbnail url="http://a.abcnews.com/images/US/EPA_Obama_flint_cf_160504_mn_4x3t_384.jpg" width="384" height="288" credit="Jeff Kowalsky/EPA" /> <media:thumbnail url="http://a.abcnews.com/images/US/EPA_Obama_flint_cf_160504_mn_16x9t_240.jpg" width="240" height="135" credit="Jeff Kowalsky/EPA" /> <media:thumbnail url="http://a.abcnews.com/images/US/EPA_Obama_flint_cf_160504_mn_4x3_608.jpg" width="608" height="456" credit="Jeff Kowalsky/EPA" /> <media:thumbnail url="http://a.abcnews.com/images/US/EPA_Obama_flint_cf_160504_mn_16x9_992.jpg" width="992" height="558" credit="Jeff Kowalsky/EPA"  /> 
-					
-					<media:keywords>32</media:keywords>
-
-					<title><![CDATA[ Photos:  Flint's Water Crisis Back in the National Spotlight]]></title>
-					<link><![CDATA[http://abcnews.go.com/US/photos/flints-water-crisis-back-national-spotlight-38827552]]></link>
-					<guid><![CDATA[http://abcnews.go.com/US/photos/flints-water-crisis-back-national-spotlight-38827552]]></guid>
-					<pubDate>Wed, 04 May 2016 19:47:22 -0400</pubDate> 
-					<description><![CDATA[The president is expected to meet with Michigan Gov. Rick Snyder.]]></description> 
-					
-					<category>US</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/International/EPA_el_nino_draught_10_mm_160414_mn_4x3t_384.jpg" width="384" height="288" credit="EPA" /> <media:thumbnail url="http://a.abcnews.com/images/International/EPA_el_nino_draught_10_mm_160414_mn_4x3t_144.jpg" width="144" height="108" credit="EPA" /> <media:thumbnail url="http://a.abcnews.com/images/International/EPA_el_nino_draught_10_mm_160414_mn_4x3t_384.jpg" width="384" height="288" credit="EPA" /> <media:thumbnail url="http://a.abcnews.com/images/International/EPA_el_nino_draught_10_mm_160414_mn_16x9t_240.jpg" width="240" height="135" credit="EPA" /> <media:thumbnail url="http://a.abcnews.com/images/International/EPA_el_nino_draught_10_mm_160414_mn_4x3_608.jpg" width="608" height="456" credit="EPA" /> <media:thumbnail url="http://a.abcnews.com/images/International/EPA_el_nino_draught_10_mm_160414_mn_16x9_992.jpg" width="992" height="558" credit="EPA"  /> 
-					
-					<media:keywords>33</media:keywords>
-
-					<title><![CDATA[ Photos:  The Impact and Effects of El Nino ]]></title>
-					<link><![CDATA[http://abcnews.go.com/International/photos/struggle-survive-aftermath-el-nino-38744089]]></link>
-					<guid><![CDATA[http://abcnews.go.com/International/photos/struggle-survive-aftermath-el-nino-38744089]]></guid>
-					<pubDate>Tue, 03 May 2016 08:15:48 -0400</pubDate> 
-					<description><![CDATA[Draughts triggered by El Nino are causing severe food and water shortages.]]></description> 
-					
-					<category>International</category> 
-					
-					</item>
-	
-					<item>
-					
-					<media:thumbnail url="http://a.abcnews.com/images/Politics/AP_sasha_malia_32_mm_160502_mn_4x3t_384.jpg" width="384" height="288" credit="Jacquelyn Martin/AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/AP_sasha_malia_32_mm_160502_mn_4x3t_144.jpg" width="144" height="108" credit="Jacquelyn Martin/AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/AP_sasha_malia_32_mm_160502_mn_4x3t_384.jpg" width="384" height="288" credit="Jacquelyn Martin/AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/AP_sasha_malia_32_mm_160502_mn_16x9t_240.jpg" width="240" height="135" credit="Jacquelyn Martin/AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/AP_sasha_malia_32_mm_160502_mn_4x3_608.jpg" width="608" height="456" credit="Jacquelyn Martin/AP Photo" /> <media:thumbnail url="http://a.abcnews.com/images/Politics/AP_sasha_malia_32_mm_160502_mn_16x9_992.jpg" width="992" height="558" credit="Jacquelyn Martin/AP Photo"  /> 
-					
-                           <media:content />
-
-                    
-					<media:keywords>34</media:keywords>
-
-					<title><![CDATA[ Photos:  Malia and Sasha Obama Through the Years]]></title>
-					<link><![CDATA[http://abcnews.go.com/Politics/photos/malia-sasha-obama-vacation-biking-16716893]]></link>
-					<guid><![CDATA[http://abcnews.go.com/Politics/photos/malia-sasha-obama-vacation-biking-16716893]]></guid>
-					<pubDate>Mon, 02 May 2016 15:39:19 -0400</pubDate> 
-					<description><![CDATA[The first mom and daughters watch Chinese dancers.]]></description> 
-					
-					<category>Politics</category> 
-					
-					</item>
-	
-</channel> 
+		<description>(Reuters) - Nekima Levy-Pounds, president of the Minneapolis chapter of the National Association for the Advancement of Colored People, compares the city's mostly white police department to "an occupying force" when its officers go into black neighborhoods.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=8BiLbnbg3s4:w7pQg8_ozhk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=8BiLbnbg3s4:w7pQg8_ozhk:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=8BiLbnbg3s4:w7pQg8_ozhk:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.reuters.com/~ff/reuters/topNews?a=8BiLbnbg3s4:w7pQg8_ozhk:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/reuters/topNews?i=8BiLbnbg3s4:w7pQg8_ozhk:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/reuters/topNews/~4/8BiLbnbg3s4" height="1" width="1" alt=""/&gt;</description>
+		<link>http://feeds.reuters.com/~r/reuters/topNews/~3/8BiLbnbg3s4/us-usa-police-cities-idUSKCN0ZX0GF</link>
+        <guid isPermaLink="false">http://www.reuters.com/article/us-usa-police-cities-idUSKCN0ZX0GF?feedType=RSS&amp;feedName=topNews</guid>
+        <category>topNews</category>
+		<pubDate>Sun, 17 Jul 2016 08:02:31 -0400</pubDate>
+		<feedburner:origLink>http://www.reuters.com/article/us-usa-police-cities-idUSKCN0ZX0GF?feedType=RSS&amp;feedName=topNews</feedburner:origLink></item>
+</channel>
 </rss>
