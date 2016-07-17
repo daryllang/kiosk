@@ -195,7 +195,7 @@ function timeupdates() {
 	/* Pull news file */
 	
 	$.get('news.xml', function(d){
-		var $newstext = '<li class="coltitle">ABC News</li>';
+		var $newstext = '<li class="coltitle">Reuters Top News</li>';
 		i = 0;
 		$(d).find('rss > channel > item > title').each(function(){
 			i++;
