@@ -1,6 +1,7 @@
 # Daryl's Weather/Twitter Kiosk
 
 * Designed for a Raspberry Pi with 7" screen (800 x 480 pixels)
+* Demo sometimes working here: http://daryllang.com/kiosk
 * Author: Daryl Lang <daryl@daryllang.com>
 
 ## Environment setup
@@ -14,7 +15,7 @@ And you'll definitely need Python Twitter.
 sudo pip install python-twitter
 ```
 
-You'll want to be running a web server. If you need one go ahead an get Nginx...
+You'll want to be running a web server. If you need one go ahead and get Nginx...
 ``` 
 sudo apt-get install nginx
 sudo /etc/init.d/nginx start
