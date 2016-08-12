@@ -1,23 +1,27 @@
 # Daryl's Weather/Twitter Kiosk
 
-* Designed for a Raspberry Pi screen
+* Designed for a Raspberry Pi with 7" screen (800 x 480 pixels)
 * Author: Daryl Lang <daryl@daryllang.com>
 
 ## Environment setup
 
-Let's see. You'll definitely need Python Twitter 
+Let's see. Make sure you have Python.
+```
+python -V
+```
+And you'll definitely need Python Twitter.
 ```
 sudo pip install python-twitter
 ```
 
-If you're planning to use this machine to run the scripts, serve the web pages, and display the webpages, you'll want to be running a web server like Nginx...
+You'll want to be running a web server. If you need one go ahead an get Nginx...
 ``` 
 sudo apt-get install nginx
 sudo /etc/init.d/nginx start
 ```
-View /etc/nginx/sites-enabled/default to see where your root web directory is, or to change it if you want.
+View /etc/nginx/sites-enabled/default to see where your root web directory is, or to change it if you want. You'll want to clone this repository into a folder that your web browser recognizes, like "/var/www", or a subfolder like "/var/www/kiosk".
 
-See https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=121195 for how to install Chromium on a Raspberry Pi. This worked for me:
+Need a web browser? See https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=121195 for how to install Chromium on a Raspberry Pi. This should get you a working copy of Chromium:
 
 ```
 wget -qO - http://bintray.com/user/downloadSubjectPublicKey?username=bintray | sudo apt-key add -
@@ -26,13 +30,13 @@ sudo apt-get update
 sudo apt-get install chromium-browser
 ```
 
-## This program's config file
+## The Kiosk config file
 
-Fill in the values for config-sample.py and save it as config.py.
+Fill in the values for config-sample.py and save it as config.py. You'll need to set up a Twitter app if you haven't already.
 
-## Twitter script
+## How do I config the twitter.py script?
 
-The Twitter script attached is designed specifically to pull from 2 feeds, for the New York City subway and NYC emergency alerts. You can modify it for other feeds.
+The Twitter script attached is designed specifically to pull from 2 feeds, @NYCTSubway for the New York City subway and @NotifyNYC NYC emergency alerts. You can modify it for other feeds.
 
 ## Cron
 
@@ -40,16 +44,21 @@ You'll want to run these 3 scripts on a cron.
 ```
 crontab -e
 ```
-Then add these lines to your crontab file to run the twitter script every minute, the news feed script every 10 minutes, and the weather script every 3 minutes. 
+Then add these lines to your crontab file to run the twitter script every minute, the weather script every 3 minutes, and the news feed script every 10 minutes. They write data to tweets.json, weather.json, forecast.xml, and news.xml.
+
 ```
 * * * * * python /home/daryluser/kiosk/twitterget.py
-*/10 * * * * python /home/daryluser/kiosk/newsget.py
 */3 * * * * python /home/daryluser/kiosk/weatherget.py
+*/10 * * * * python /home/daryluser/kiosk/newsget.py
 ```
 
-## Running this screen as a kiosk
+## The design for the home page
 
-Depending on your screen setup, some version of this code in a script that runs at login will load the Chromium browser and display whatever your root directory's home page is in kiosk mode.
+The file that you'll load in your browser to see all the data you've pulled is index.html. It reads data once a second from tweets.json, weather.json, forecast.xml, and news.xml. It refreshes every 15 minutes. Styling is in style.css.
+
+## Running this screen as a kiosk with a Raspberry Pi display.
+
+Depending on your screen setup, some version of this code will load the Chromium browser and display whatever your root directory's home page is in kiosk mode.
 
 ```
 startx &
